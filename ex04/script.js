@@ -29,3 +29,11 @@ function cultura(filme, musica,) {
 }
 
 cultura("Aquarius", "Meu Caro Amigo - Chico Buarque")
+
+
+//5 - crie uma função que retorne o triplo do número recebido no parâmetro da função
+    function triplo(num) {
+        return num * 3
+    }
+    let number = 15;
+    console.log(triplo(number))

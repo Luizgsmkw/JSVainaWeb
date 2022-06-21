@@ -1,3 +1,4 @@
+/*
 //1 - Crie uma condição que exiba uma mensagem no console se a idade for maior que 18
 let idade = 26;
 if(idade > 18) {
@@ -26,10 +27,22 @@ if(nome[0] === "R") {
     console.log("Seu nome não começa com a letra R")
 }
 //5 - Criar uma condição que exiba uma mensagem no console se seu sobrenome tenha mais de 6 letras OU seu nome começar com a letra E
+
 let nome2 = "Luiz";
+
 let sobrenome = "Gustavo"
+
 if(sobrenome.length > 5 || nome2[0] === "E" ) {
     console.log("Seu sobronome tem mais do que 6 letras ou seu nome começa com E")
 } else {
     console.log("Seu sobronome não têm mais do que 6 letras e seu nome não começa com E")
 }
+
+
+let nome = +prompt("Digite um número")
+console.log(typeof nome)
+
+
+*/
+
+
