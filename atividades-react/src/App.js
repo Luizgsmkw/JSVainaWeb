@@ -82,9 +82,16 @@ export default Frase1;
 */
 
 
+///////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
 
 //📌 Prática React 03 - Component de function
 
+/*
 import React from "react";
 
 
@@ -97,3 +104,46 @@ function Frase2(){
   )
 }
 export default Frase2;
+*/
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+
+
+//   📌 Prática React 04 - Arrow Function
+
+
+//Crie um component de class
+
+
+import React, {Component} from "react";
+
+class Atividade4 extends Component {
+
+  // Crie uma arrow function que receba uma mensagem e exiba na tela
+  Mensagem = (frase) => ( `${frase}`)
+
+  // Crie uma arrow function que retorne o dobro de um número e exiba na tela
+
+  Dobro = (n1) => (n1 * 2)
+
+  render(){
+    return(
+      <div>
+        <h1>{this.Mensagem('"Quando o mundo vira as costas para você, você vira as costas para o mundo." - Timão')}</h1>
+        <h2>{this.Dobro(5)}</h2>
+      </div>
+    )
+  }
+
+}
+
+export default Atividade4
