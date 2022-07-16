@@ -123,7 +123,7 @@ export default Frase2;
 
 //Crie um component de class
 
-
+/*
 import React, {Component} from "react";
 
 class Atividade4 extends Component {
@@ -147,3 +147,59 @@ class Atividade4 extends Component {
 }
 
 export default Atividade4
+
+*/
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+
+// 📌 Prática React 05 - Map()
+
+
+
+
+
+
+//Crie um component de class
+
+import React, {Component} from "react"
+class Pessoa extends Component {
+
+  //Crie um array de objetos no STATE com pelo menos 6 objetos
+
+  state = {
+    pessoas: [
+      {nome: "Lucas", idade: 32, cidade: "São Paulo"},
+      {nome: "Fernanda", idade: 25, cidade: "Belo Horizonte"},
+      {nome: "Joana", idade: 20, cidade: "São Paulo"},
+      {nome: "Juliano", idade: 35, cidade: "Rio de Janeiro"},
+      {nome: "Carlos", idade: 19, cidade: "Ouro Preto"},
+      {nome: "Amanda", idade:32, cidade: "Cabo Frio" }
+    ]
+  }
+
+  //Faça um map do seu state e exiba os dados na tela
+  render(){
+    return(
+      <div>
+        {this.state.pessoas.map((item) => (
+          <p>Meu nome é {item.nome}, tenho {item.idade} e moro na cidade de {item.cidade}</p>
+        ))}
+      </div>
+    )
+  }
+
+
+
+}
+
+export default Pessoa;
