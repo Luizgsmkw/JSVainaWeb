@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: #96A755;
+}
+
+main{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.telephone{
+    height: 600px;
+    width: 350px;
+    border: solid 11px black;
+    border-radius: 40px;
+    background-color: #F1B641;
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.navBar{
+    margin: auto;
+    width: 300px;
+    height: 40px;
+    background-color: #FFECC0;
+    border-radius: 40px;
+    display: flex;
+    padding: 0px 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navBar{
+    font-family: 'Courgette', cursive;
+    font-size: 19px;
+}
+
+.handbag{
+    width: 25px;
+    height: 25px;
+}
+
+.product{
+   height: 200px;
+   width: 160px;
+}
+
+.PASSION{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.PASSION h2 {
+    font-weight: bolder;
+}
+h3{
+    text-align: left;
+    margin-top: 10px;
+}
+
+form{
+    margin-top: 15px;
+}
+
+.checkBox{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-bottom: 10px;
+}
+
+.bag{
+    margin-right: 50px;
+}
+
+.inputNumber{
+    margin: auto;
+    width: 300px;
+    height: 35px;
+    border-radius: 50px;
+    border: none;
+    padding: 0px 30px;
+    font-size: 16px;
+}
+
+button{
+    margin: auto;
+    display: block;
+    width: 300px;
+    height: 40px;
+    border: none;
+    border-radius: 50px;
+    background-color: black;
+    color: #F1B641;
+    margin-top: 10px;
+    cursor: pointer;
+}
